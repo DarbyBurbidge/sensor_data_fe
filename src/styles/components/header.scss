@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        font-family: monospace;
+        font-size: 2rem;
+    }
+}
