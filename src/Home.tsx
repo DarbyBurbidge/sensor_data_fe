@@ -31,7 +31,7 @@ export const Home = () => {
             return (
             <div key={timeSlice.timeStamp}>
                 <div>
-                    {`Time: ${timeSlice.timeStamp}`}
+                    {`Time: ${new Date(timeSlice.timeStamp).toLocaleTimeString()}`}
                 </div>
                 <div>
                     {`Temperature outside: ${timeSlice.temp}`}
